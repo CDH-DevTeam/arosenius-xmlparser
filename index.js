@@ -1,5 +1,6 @@
 var gub = require('./gub.js');
+var nationalmuseum = require('./nationalmuseum.js');
 
-gub.parseAll();
+//gub.parseAll();
 
-//gub.parse('GUB0101991');
+nationalmuseum.parseMaster();

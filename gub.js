@@ -56,7 +56,7 @@ module.exports = {
 
 				var getImageDataItem = function(id) {
 					var resultObj;
-					_.each(imageMetadata.files, function(item) {
+					_.each(fileMetadata.files, function(item) {
 						if (item.id == id) {
 							resultObj = item;
 						}
@@ -119,15 +119,15 @@ module.exports = {
 					return item.$.ID == 'dmdSec1';
 				})['mets:mdWrap'][0];
 
-				var imageMetadata = {
+				var fileMetadata = {
 					meta: {},
 					files: []
 				};
-				imageMetadata.meta = formatFileMetadata(dmdSec1['mets:xmlData'][0]['gubs'][0]['manuscript'][0]);
+				fileMetadata.meta = formatFileMetadata(dmdSec1['mets:xmlData'][0]['gubs'][0]['manuscript'][0]);
 
 				_.each(structMap.logical[0]['mets:div'], function(item) {
 					if (getImageDataItem(item.$.DMDID) == undefined) {
-						imageMetadata.files.push({
+						fileMetadata.files.push({
 							id: item.$.DMDID,
 							metadata: getEntryMetadata(item.$.DMDID),
 //							item: item,
@@ -141,7 +141,7 @@ module.exports = {
 					});
 				});
 
-				fs.writeFile('output/gub/'+metsID+'.json', JSON.stringify(imageMetadata, null, '\t'), function (err) {});
+				fs.writeFile('output/gub/'+metsID+'.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {});
 			});
 		});
 	}
