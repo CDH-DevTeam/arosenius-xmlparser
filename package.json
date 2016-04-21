@@ -1,0 +1,23 @@
+{
+  "name": "arosenius-xmlparser",
+  "version": "1.0.0",
+  "description": "XML parser for Arosenius metadata.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDH-DevTeam/arosenius-xmlparser.git"
+  },
+  "author": "CDH/Trausti Dagsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDH-DevTeam/arosenius-xmlparser/issues"
+  },
+  "homepage": "https://github.com/CDH-DevTeam/arosenius-xmlparser#readme",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.16"
+  }
+}
