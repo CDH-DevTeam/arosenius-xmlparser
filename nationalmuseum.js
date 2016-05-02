@@ -1,14 +1,37 @@
 var fs = require('fs');
 var xml2js = require('xml2js');
 var _ = require('underscore');
+var http = require('http');
 
 module.exports = {
 	parseMaster: function() {
 		console.log('gub.parseMaster');
+
+		/*
+		var lidoData = [];
+
+		fs.readdir('xml/nationalmuseum/lido', _.bind(function(err, files) {
+			_.each(files, _.bind(function(file) {
+
+				fs.readFile('xml/nationalmuseum/lido/'+file, function(err, fileData) {
+					var parser = new xml2js.Parser();
+
+					parser.parseString(fileData, function(error, result) {
+						lidoData.push({
+							id: result['lido:lidoWrap']['lido:lido'][0]['lido:administrativeMetadata'][0]['lido:recordWrap'][0]['lido:recordID'][0]['_'],
+							imgUrl: result['lido:lidoWrap']['lido:lido'][0]['lido:administrativeMetadata'][0]['lido:resourceWrap'][0]['lido:resourceSet'][0]['lido:resourceRepresentation'][1]['lido:linkResource'][0]
+						});
+					});
+				});
+
+			}, this));
+
+		}, this));
+		*/
 		fs.readFile('xml/nationalmuseum/20160222-NM.xml', function(err, fileData) {
 			var parser = new xml2js.Parser();
 
-			parser.parseString(fileData, function (err, result) {
+			parser.parseString(fileData, function(err, result) {
 				var fileMetadata = {
 					files: []
 				};
@@ -16,6 +39,8 @@ module.exports = {
 				_.each(result.BeeCollectExport.module_collection[0].object, function(item) {
 					var metadataItem = {
 						obj_id: item.ObjId[0]['_'],
+						title_se: item.group_multiple_objtiteloriginals[0].OmuInhalt01M[0]['_'],
+						title_en: item.group_multiple_objtiteloriginals[1] ? item.group_multiple_objtiteloriginals[1].OmuInhalt01M[0]['_'] : '',
 						enhet: item.ObjFeld04M[0]['_'],
 						forvarvstyp: item.ObjFeld02M[0]['_'],
 						inventarienr: item.ObjInventarNrS[0]['_'],
@@ -39,12 +64,6 @@ module.exports = {
 						name: 'group_multiple_objtitelweiterem',
 						label: item.group_multiple_objtitelweiterem[0].OmuTypS[0]['_'],
 						value: item.group_multiple_objtitelweiterem[0].OmuInhalt01M[0]['_']
-					});
-
-					metadataItem.attributes.push({
-						name: 'group_multiple_objtiteloriginals',
-						label: item.group_multiple_objtiteloriginals[0].OmuTypS[0]['_'],
-						value: item.group_multiple_objtiteloriginals[0].OmuInhalt01M[0]['_']
 					});
 
 					_.each(item.group_multiple_objtechmatm, function(group_multiple_objtechmatm) {
@@ -83,6 +102,15 @@ module.exports = {
 					}
 
 					fileMetadata.files.push(metadataItem);
+
+					var imageUrl = 'http://emp-web-22.zetcom.ch/eMuseumPlus?service=ImageAsset&module=collection&objectId='+item.ObjId[0]['_']+'&viewType=detailView&resolution=superImageResolution';
+					console.log(imageUrl);
+
+					var file = fs.createWriteStream('output/nationalmuseum/images/'+item.ObjId[0]['_']+'.jpg');
+					var request = http.get(imageUrl, function(response) {
+						response.pipe(file);
+					});
+
 				});
 
 				fs.writeFile('output/nationalmuseum/20160222-NM.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {});
