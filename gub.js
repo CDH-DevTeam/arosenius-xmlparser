@@ -89,12 +89,12 @@ module.exports = {
 						letter_physloc: metsData.letter ? metsData.letter[0].physloc[0] : '',
 
 						letter_sender_name_given: metsData.letter && metsData.letter[0] && metsData.letter[0].sender && metsData.letter[0].sender[0] && metsData.letter[0].sender[0]['name-given'] && metsData.letter[0].sender[0]['name-given'][0]? metsData.letter[0].sender[0]['name-given'][0] : '',
-						letter_sender_name_family: metsData.letter ? metsData.letter[0].sender[0]['name-family'][0] : '',
-						letter_sender_name_date: metsData.letter ? metsData.letter[0].sender[0]['name-date'][0] : '',
+						letter_sender_name_family: metsData.letter && metsData.letter[0] && metsData.letter[0].sender && metsData.letter[0].sender[0] && metsData.letter[0].sender[0]['name-family'] && metsData.letter[0].sender[0]['name-family'][0] ? metsData.letter[0].sender[0]['name-family'][0] : '',
+						letter_sender_name_date: metsData.letter && metsData.letter[0] && metsData.letter[0].sender && metsData.letter[0].sender[0] && metsData.letter[0].sender[0]['name-date'] && metsData.letter[0].sender[0]['name-date'][0] ? metsData.letter[0].sender[0]['name-date'][0] : '',
 
-						letter_recipient_name_given: metsData.letter ? metsData.letter[0].recipient[0]['name-given'][0] : '',
-						letter_recipient_name_family: metsData.letter ? metsData.letter[0].recipient[0]['name-family'][0] : '',
-						letter_recipient_name_date: metsData.letter ? metsData.letter[0].recipient[0]['name-date'][0] : '',
+						letter_recipient_name_given: metsData.letter && metsData.letter[0] && metsData.letter[0].recipient && metsData.letter[0].recipient[0] && metsData.letter[0].recipient[0]['name-given'] && metsData.letter[0].recipient[0]['name-given'][0] ? metsData.letter[0].recipient[0]['name-given'][0] : '',
+						letter_recipient_name_family: metsData.letter && metsData.letter[0] && metsData.letter[0].recipient && metsData.letter[0].recipient[0] && metsData.letter[0].recipient[0]['name-family'] && metsData.letter[0].recipient[0]['name-family'][0] ? metsData.letter[0].recipient[0]['name-family'][0] : '',
+						letter_recipient_name_date: metsData.letter && metsData.letter[0] && metsData.letter[0].recipient && metsData.letter[0].recipient[0] && metsData.letter[0].recipient[0]['name-date'] && metsData.letter[0].recipient[0]['name-date'][0] ? metsData.letter[0].recipient[0]['name-date'][0] : '',
 
 						letter_unitdate: metsData.letter ? metsData.letter[0].unitdate[0] : '',
 						letter_note: metsData.letter && metsData.letter[0].note ? metsData.letter[0].note[0] : '',
