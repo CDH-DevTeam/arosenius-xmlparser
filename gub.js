@@ -2,10 +2,11 @@ var fs = require('fs');
 var xml2js = require('xml2js');
 var _ = require('underscore');
 
+var config = require('./config');
+
 module.exports = {
 	parseAll: function() {
-		console.log('gub.parseAll');
-		fs.readdir('xml/gub', _.bind(function(err, directories) {
+		fs.readdir(config.gub_path+'////++/dgd', _.bind(function(err, directories) {
 			_.each(directories, _.bind(function(directory) {
 				this.parse(directory);
 			}, this))
@@ -17,7 +18,7 @@ module.exports = {
 	parse: function(metsID) {
 		var parser = new xml2js.Parser();
 
-		fs.readFile('xml/gub/'+metsID+'/'+metsID+'_mets.xml', function(err, fileData) {
+		fs.readFile(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml', function(err, fileData) {
 			parser.parseString(fileData, function (err, result) {
 				var getEntryMetadata = function(id) {
 					var resultObj;

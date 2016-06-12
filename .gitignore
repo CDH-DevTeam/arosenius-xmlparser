@@ -3,3 +3,4 @@ output
 xml/*.jpg
 *.jpg
 *.pdf
+config.js
