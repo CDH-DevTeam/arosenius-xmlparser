@@ -4,6 +4,7 @@ var _ = require('underscore');
 var fs = require('fs');
 
 var colors = require('./arosenius.color_utils');
+var config = require('./config');
 
 var files = fs.readdirSync('output/gub');
 
@@ -16,7 +17,7 @@ _.each(files, function(file) {
             _.each(imagePack.images, function(imageItem) {
                 var imageId = imageItem.id.replace('web', '');
 
-                var imageData = fs.readFileSync('xml/gub/'+data.meta.mets_ID+'/image/'+imageId+'.png');
+                var imageData = fs.readFileSync('xml/gub/'+data.meta.mets_ID+'/image/'+imageId+'.'+(config.read_png ? 'png' : 'jpg'));
 
                 var image = new Canvas.Image;
                 image.src = imageData;
