@@ -6,7 +6,7 @@ var config = require('./config');
 
 module.exports = {
 	parseAll: function() {
-		fs.readdir(config.gub_path+'////++/dgd', _.bind(function(err, directories) {
+		fs.readdir(config.gub_path, _.bind(function(err, directories) {
 			_.each(directories, _.bind(function(directory) {
 				this.parse(directory);
 			}, this))
