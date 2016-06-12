@@ -17,7 +17,7 @@ _.each(files, function(file) {
             _.each(imagePack.images, function(imageItem) {
                 var imageId = imageItem.id.replace('web', '');
 
-                var imageData = fs.readFileSync('xml/gub/'+data.meta.mets_ID+'/web/'+imageId+'.'+(config.read_png ? 'png' : 'jpg'));
+                var imageData = fs.readFileSync(config.gub_path+'/'+data.meta.mets_ID+'/web/'+imageId+'.'+(config.read_png ? 'png' : 'jpg'));
 
                 var image = new Canvas.Image;
                 image.src = imageData;
