@@ -81,7 +81,7 @@ module.exports = {
 
 						document_unittitle: metsData.document ? metsData.document[0].unittitle[0] : '',
 						document_physloc: metsData.document ? metsData.document[0].physloc[0] : '',
-						document_physdesc: metsData.document ? metsData.document[0].physdesc[0] : '',
+						document_physdesc: metsData.document && metsData.document[0] && metsData.document[0].physdesc && metsData.document[0].physdesc[0] ? metsData.document[0].physdesc[0] : '',
 						document_unitdate: metsData.document && metsData.document[0] && metsData.document[0].unitdate ? metsData.document[0].unitdate[0] : '',
 						document_searchdate: metsData.document ? metsData.document[0].searchdate[0] : '',
 						document_note: metsData.document && metsData.document[0] && metsData.document[0].note? metsData.document[0].note[0] : '',
