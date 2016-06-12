@@ -17,7 +17,7 @@ module.exports = {
 
 	parse: function(metsID) {
 		var parser = new xml2js.Parser();
-
+		console.log(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml');
 		fs.readFile(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml', function(err, fileData) {
 			parser.parseString(fileData, function (err, result) {
 				var getEntryMetadata = function(id) {
