@@ -88,7 +88,7 @@ module.exports = {
 
 						letter_physloc: metsData.letter ? metsData.letter[0].physloc[0] : '',
 
-						letter_sender_name_given: metsData.letter ? metsData.letter[0].sender[0]['name-given'][0] : '',
+						letter_sender_name_given: metsData.letter && metsData.letter[0] && metsData.letter[0].sender && metsData.letter[0].sender[0] && metsData.letter[0].sender[0]['name-given'] && metsData.letter[0].sender[0]['name-given'][0]? metsData.letter[0].sender[0]['name-given'][0] : '',
 						letter_sender_name_family: metsData.letter ? metsData.letter[0].sender[0]['name-family'][0] : '',
 						letter_sender_name_date: metsData.letter ? metsData.letter[0].sender[0]['name-date'][0] : '',
 
@@ -100,7 +100,7 @@ module.exports = {
 						letter_note: metsData.letter && metsData.letter[0].note ? metsData.letter[0].note[0] : '',
 
 						letter_image_physdesc: metsData.letter ? metsData.letter[0].data[0].imagedata[0].physdesc[0] : '',
-						letter_image_unitdate: metsData.letter && metsData.letter[0] && metsData.letter[0].data && metsData.letter[0].data[0] && metsData.letter[0].data[0].imagedata && metsData.letter[0].data[0].imagedata[0] && metsData.letter[0].data[0].imagedata[0].unitdate? metsData.letter[0].data[0].imagedata[0].unitdate[0] : '',
+						letter_image_unitdate: metsData.letter && metsData.letter[0] && metsData.letter[0].data && metsData.letter[0].data[0] && metsData.letter[0].data[0].imagedata && metsData.letter[0].data[0].imagedata[0] && metsData.letter[0].data[0].imagedata[0].unitdate ? metsData.letter[0].data[0].imagedata[0].unitdate[0] : '',
 						letter_image_searchdate: metsData.letter ? metsData.letter[0].data[0].imagedata[0].searchdate[0] : '',
 					};
 
