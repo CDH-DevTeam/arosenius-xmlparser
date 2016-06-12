@@ -100,7 +100,7 @@ module.exports = {
 						letter_note: metsData.letter && metsData.letter[0].note ? metsData.letter[0].note[0] : '',
 
 						letter_image_physdesc: metsData.letter ? metsData.letter[0].data[0].imagedata[0].physdesc[0] : '',
-						letter_image_unitdate: metsData.letter && metsData.letter[0] && metsData.letter[0].data && metsData.letter[0].data[0] && metsData.letter[0].data[0].imagedata? metsData.letter[0].data[0].imagedata[0].unitdate[0] : '',
+						letter_image_unitdate: metsData.letter && metsData.letter[0] && metsData.letter[0].data && metsData.letter[0].data[0] && metsData.letter[0].data[0].imagedata && metsData.letter[0].data[0].imagedata[0] && metsData.letter[0].data[0].imagedata[0].unitdate? metsData.letter[0].data[0].imagedata[0].unitdate[0] : '',
 						letter_image_searchdate: metsData.letter ? metsData.letter[0].data[0].imagedata[0].searchdate[0] : '',
 					};
 
