@@ -20,6 +20,7 @@ module.exports = {
 		console.log(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml');
 		fs.readFile(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml', function(err, fileData) {
 			parser.parseString(fileData, function (err, result) {
+				console.log(result);
 				var getEntryMetadata = function(id) {
 					var resultObj;
 					_.each(result['mets:mets']['mets:dmdSec'], function(item) {
@@ -142,7 +143,9 @@ module.exports = {
 					});
 				});
 
-				fs.writeFile('output/gub/'+metsID+'.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {});
+				fs.writeFile('output/gub/'+metsID+'.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {
+					console.log('output/gub/'+metsID+'.json');
+				});
 			});
 		});
 	}
