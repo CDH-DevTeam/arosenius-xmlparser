@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:rights="http://www.loc.gov/rights/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lc="http://www.loc.gov/mets/profiles" xmlns:bib="http://www.loc.gov/mets/profiles/bibRecord" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="loc.afc.afc9999005.1153" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <mets:metsHdr ID="GUB0104394" CREATEDATE="2014-10-23T12:09:56" LASTMODDATE="2014-11-06T11:52:17" RECORDSTATUS="complete">
+    <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION" ID="Gdig">
+      <mets:name>GUB, Göteborgs universitetsbibliotek, Digitala tjänster</mets:name>
+    </mets:agent>
+    <mets:agent ROLE="ARCHIVIST" TYPE="ORGANIZATION" ID="U">
+      <mets:name>UUB, Uppsala universitetsbibliotek</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="image_1238" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1238" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Minnesutställningen öfver konstnären Ivar Arosenius: katalog. Stockholm 1909. Stockholm: Hasse W. Tullbergs boktryckeri, 1909. Med anteckningar av Nils B. Adler.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1239" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1239" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Katalog öfver Retrospektiva Konstutställningen 1861-1911: Konstverk ur offentliga och enskilda samlingar i Göteborg. Göteborg: A. Lindgren &amp; Söner, 1911. med påskrift: Nils B. Adler.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1240" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1240" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Novemberutställningen: Carl Wilhelmson, retrospektiv kollektion. Liljevalchs konsthall. Katalog N:o 39. (Novemberutställningen 4-26 november 1922). Stockholm: Kurt Lindberg Boktryckeri, 1922. Med stämpel och antekningar av Nils B. Adler</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1241" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1241" hd-ref="bild">
+            <physdesc>1 band</physdesc>
+            <note>Västsvensk konst. Jubileumsutställningen i Göteborg 1923: katalog. Göteborg: Wald. Zachrissons boktryckeri, 1923. med blyertsanteckning "N.A." på titelsidan.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1242" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1242" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Ivar Arosenius: Utställning. Helsingfors 1926 i Ateneum. [Inledning av Gunnar Wengström.] [Illustr.]. Helsingfors: Frenckellska Tryckeri 1926. Med anteckningar av Nils B. Adler.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1243" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1243" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Ivar Arosenius: Näyttely. Helsingissä 1926 Ateneumissa. [Gunnar Wengström]. Helsingissä: Frenckellin Kirjapaino Osakeyhtiö 1926.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1244" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1244" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Göteborgs konstförening. Ivar Arosenius: minnesutställning: Göteborg 1927. Med anteckningar av Nils B. Adler.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1245" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1245" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Ivar Arosenius 1878-1909: utstillning. Kunstforeningen 1927. Oslo: Emil Moestue boktrykkeri, 1927</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="image_1246" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <pagegroup xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/imagedata.xsd">
+          <imagedata hd-id="1246" hd-ref="bild">
+            <physdesc>1 häfte</physdesc>
+            <note>Ivar Arosenius (1878-1909) : Färg och form maj 1944: utställningskatalog nr 161. Stockholm: Ikatryck, 1944. Med anteckningar.</note>
+            <userestrict>1</userestrict>
+          </imagedata>
+        </pagegroup>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="dmdSec1" CREATED="2014-10-23T12:09:56">
+    <mets:mdWrap MDTYPE="OTHER">
+      <mets:xmlData>
+        <gubs>
+          <manuscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hd-id="2617" hd-ref="dokument" xsi:noNamespaceSchemaLocation="http://www.ub.gu.se/handskriftsdatabasen/api/schema.xsd">
+            <archive hd-id="21" hd-ref="arkiv">
+              <unittitle>Handlingar rörande konstnären Ivar Arosenius</unittitle>
+              <unitdate>1896-2011</unitdate>
+              <physloc>H 201</physloc>
+              <physdesc>12 volymer</physdesc>
+              <originator hd-id="1731" hd-ref="namn">
+                <name-given>Ivar</name-given>
+                <name-family>Arosenius</name-family>
+                <name-date>1878-1909</name-date>
+                <occupation hd-id="5" hd-ref="yrke">konstnär</occupation>
+              </originator>
+              <description>Ivar Arosenius föddes 1878 i Göteborg. Han studerade vid Slöjdföreningens skola och för Carl Wilhelmson på Valand.
+Senare flyttade han till Stockholm och började på Konstakademien med Richard Berg som lärare.
+1906 gifte han sig med Eva Adler och de bodde en kort tid i Åby utanför Norrköping. Det var här dottern Lillan föddes. 1907 flyttade familjen till Älvängen norr om Göteborg. Ivar Arosenius avled här 1909.
+Handlingarna, som består av manuskriptböcker, fotografier, teckningar och brev, är en deposition av Kungliga Vetenskaps- och Vitterhetssamhället i Göteborg.
+Material rörande Ivar Arosenius finns även i Nils Bonde Adlers samling, H 202.</description>
+              <sigel hd-id="1" hd-ref="sigel">G</sigel>
+            </archive>
+            <document>
+              <unittitle>Kataloger över utställningar av  Ivar Arosenius verk</unittitle>
+              <physloc>12</physloc>
+              <physdesc>12 häften</physdesc>
+              <searchdate>1905-1980</searchdate>
+              <language hd-id="3" hd-ref="sprak">Svenska</language>
+              <genreform hd-id="7" hd-ref="kategori">Tryck</genreform>
+              <genre hd-id="17" hd-ref="genre">Kataloger och förteckningar</genre>
+              <originator hd-id="1731" hd-ref="namn">
+                <name-given>Ivar</name-given>
+                <name-family>Arosenius</name-family>
+                <name-date>1878-1909</name-date>
+                <occupation hd-id="5" hd-ref="yrke">konstnär</occupation>
+                <role hd-id="4" hd-ref="funktion">Illustratör, konstnär</role>
+              </originator>
+              <titleinformation>
+                <title>Kataloger över utställningar av  Ivar Arosenius verk</title>
+                <subtitle>Ur Nils Adlers samling</subtitle>
+              </titleinformation>
+              <data>
+                <imagedata hd-id="1238" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Minnesutställningen öfver konstnären Ivar Arosenius: katalog. Stockholm 1909. Stockholm: Hasse W. Tullbergs boktryckeri, 1909. Med anteckningar av Nils B. Adler.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1239" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Katalog öfver Retrospektiva Konstutställningen 1861-1911: Konstverk ur offentliga och enskilda samlingar i Göteborg. Göteborg: A. Lindgren &amp; Söner, 1911. med påskrift: Nils B. Adler.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1240" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Novemberutställningen: Carl Wilhelmson, retrospektiv kollektion. Liljevalchs konsthall. Katalog N:o 39. (Novemberutställningen 4-26 november 1922). Stockholm: Kurt Lindberg Boktryckeri, 1922. Med stämpel och antekningar av Nils B. Adler</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1241" hd-ref="bild">
+                  <physdesc>1 band</physdesc>
+                  <note>Västsvensk konst. Jubileumsutställningen i Göteborg 1923: katalog. Göteborg: Wald. Zachrissons boktryckeri, 1923. med blyertsanteckning "N.A." på titelsidan.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1242" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Ivar Arosenius: Utställning. Helsingfors 1926 i Ateneum. [Inledning av Gunnar Wengström.] [Illustr.]. Helsingfors: Frenckellska Tryckeri 1926. Med anteckningar av Nils B. Adler.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1243" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Ivar Arosenius: Näyttely. Helsingissä 1926 Ateneumissa. [Gunnar Wengström]. Helsingissä: Frenckellin Kirjapaino Osakeyhtiö 1926.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1244" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Göteborgs konstförening. Ivar Arosenius: minnesutställning: Göteborg 1927. Med anteckningar av Nils B. Adler.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1245" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Ivar Arosenius 1878-1909: utstillning. Kunstforeningen 1927. Oslo: Emil Moestue boktrykkeri, 1927</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+                <imagedata hd-id="1246" hd-ref="bild">
+                  <physdesc>1 häfte</physdesc>
+                  <note>Ivar Arosenius (1878-1909) : Färg och form maj 1944: utställningskatalog nr 161. Stockholm: Ikatryck, 1944. Med anteckningar.</note>
+                  <userestrict>1</userestrict>
+                </imagedata>
+              </data>
+            </document>
+          </manuscript>
+        </gubs>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="amdSec1">
+    <mets:rightsMD ID="rightsDM1">
+      <mets:mdWrap MDTYPE="OTHER">
+        <mets:xmlData>
+          <copyright copyright.status="pd" publication.status="unpublished" xsi:noNamespaceSchemaLocation="http://www.cdlib.org/groups/rmg/docs/copyrightMD.xsd"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+  </mets:amdSec>
+  <mets:fileSec ID="fileSec1">
+    <mets:fileGrp USE="master">
+      <mets:file ID="master0001" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="b2800229f9a70cabe6716a3881c174c049932c65e851cde985a002225c744487ad336cf7ebad3c2d523c93588ac682d81bce9d2287ad2c214949f1c810d74312">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0001.tif"/>
+      </mets:file>
+      <mets:file ID="master0002" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="3358806435c61e5b15c153a138b4a3650a29afcc4b8b0ee156cff96a5c8beb82a64ef5cd3cfa92a56a2d4b343ee5553e6e0e5732ddfad1ad72e202a8fee83b21">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0002.tif"/>
+      </mets:file>
+      <mets:file ID="master0003" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="024d1863bb08b6bca7af7c0f539341f77138b56d0e25b468d483274cc1b8d66663d45daa776544db11455a742b903509001064622367bf6b021cea20bb133bfb">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0003.tif"/>
+      </mets:file>
+      <mets:file ID="master0004" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="51e1bab16f96b31bf56f6e2723b7655ad365187f3fafea20abdadbd3fee46af5abde8f90250ae2cee6216e4c5e963da678c2726e80ac2324436f04039e58268c">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0004.tif"/>
+      </mets:file>
+      <mets:file ID="master0005" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="fd9d70344b49ad66a9e2d077813440cd81737278b82eec5e319ca6ac89eb7c014a0a6b1e3e616d467995347a9f6c0ce07ab431b8a53f9f9ef964a45cdfb9dd71">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0005.tif"/>
+      </mets:file>
+      <mets:file ID="master0006" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="f00c4aa1b91d23406667c254a2be37324e60a86f6879b78c357193bc267b8adcef662b456e264b32269bbb3cd1e2ac44ac4f3c4d1cde0bc278fb304df9ddf802">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0006.tif"/>
+      </mets:file>
+      <mets:file ID="master0007" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="6ba0ec6d1fb1dcd05e2b6b7f360cec336372e5d2e302ad36268f5af5c69aa8a2de5e788b037ec9c6d24aeaee99d9782906ef4119dd2a764d37e4be2fa97d0e0c">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0007.tif"/>
+      </mets:file>
+      <mets:file ID="master0008" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="29811e6e36001667e69e487ea5c0db3aeb603f1248a36c3a0ceda88e275ce284b10ad8ade782f97ec4418cd9ddce9c521e984e85385052d36d804aca05907b37">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0008.tif"/>
+      </mets:file>
+      <mets:file ID="master0009" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="e79873bfddc391e6d4c9e870e5afe5a8aebedb2776fdd94c5ff56b2c986aa2c95a5d26083ddd3b45a0ab3dbdc5ef4a104423970a1557daebdf94174641a519b0">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0009.tif"/>
+      </mets:file>
+      <mets:file ID="master0010" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="d4bce2976609797acf393aa560383809ca46fd936b9dbc2970b1c1c644922511f0750c9f832c7b83babee6f3904c0b72c643773b33ea2c1aa68b43c21fa822b4">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0010.tif"/>
+      </mets:file>
+      <mets:file ID="master0011" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="448b0fe955709aef91881f7f8fdbabfe885bbb5636c475a4905684ad7c2cc6d658a0d938fcb186d66bba5cbda7f9459a130784ed763d88c500e5e20706cacad4">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0011.tif"/>
+      </mets:file>
+      <mets:file ID="master0012" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="7d8d0affce3d91205e3709d1d528f9ee4bbc1dbcd29f8ec47a732f84b783f307aa2ea046a2da6a6102462b0a30f4ca7ceb43ddd38de39b0bd88ae610ace1c457">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0012.tif"/>
+      </mets:file>
+      <mets:file ID="master0013" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="f0a00670787f387770d0e788c506cda2d471ff23883681620032c728a7ed1dd25396997f39b503325d7e4928a2b21d6df71a93282b92aeb26131846a52ed880c">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0013.tif"/>
+      </mets:file>
+      <mets:file ID="master0014" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="13e29f4d60e795ab9cef2a255ae202304f0cec1282e947441a6d601c8bf9794836e2c10ba7a7a0b045e092da74f34e2964b6a8d13b8b00e1b4146498a05062f1">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0014.tif"/>
+      </mets:file>
+      <mets:file ID="master0015" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="f55f9dba9bc6f701596b9b48d36da7b8ee048e0d8f34418f84a0a13f8297d4dca555985a90398810c6419f957009296a4a6a3d61f108db3c3f050bcd983a0a6a">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0015.tif"/>
+      </mets:file>
+      <mets:file ID="master0016" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="ea9f6d748c393342118c40c9b09cce6c6fb100f9a35ffce91218da330ffd7155988ff675fa5fd0176ab5e7c1fd2e2c070db70f382d820b59fe9b18730630c737">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0016.tif"/>
+      </mets:file>
+      <mets:file ID="master0017" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="f168521ef4727deec8b4a8fe4d62829e437334bf63a9cf058d01608643baae84f8c2640f212b690767c3ed58f18f1ae2c41f70b9835e97cb9531762f72d95d8a">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0017.tif"/>
+      </mets:file>
+      <mets:file ID="master0018" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="538c12e1668117984672b340ae88eaa9a943f775ea69f1ac4da0c2469ce0adb988594d351ceb7c0204d0acf74a73bf75e18d055c70e8652fccbd3c9cf96818a7">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0018.tif"/>
+      </mets:file>
+      <mets:file ID="master0019" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="125fab450727b7111924bb3374c2b269fbbc9313da182e51bf51fbb3af42121f9d2c172249a83375965407c5a501ce8c0f417cf0d8fec8f402848171a1c0858f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0019.tif"/>
+      </mets:file>
+      <mets:file ID="master0020" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="e858ab72f34ed33813c4f1a931e95cd5dc1d78408059fb70929662f0eaac5353bd4711f0552ead1915581db288e8d0ee08b4152736a8e16c18c0dc6cbf7137a6">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0020.tif"/>
+      </mets:file>
+      <mets:file ID="master0021" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="1478328f75c53b65dbba32c86af039498a31d821ce885848caf8f5a728f443f08f847065ec04fddd24a18212aad6f0fdcda5547c8120f047318ddb03d1f7e606">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0021.tif"/>
+      </mets:file>
+      <mets:file ID="master0022" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="8e75d7abbcd4e22023753840cfa7e40c02fadff7cc7f0bbcfaa80e92b1a03de4de6a8452680672d69d5c7ff411f2ff4bcece906227f38cf8d17420abbb770196">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0022.tif"/>
+      </mets:file>
+      <mets:file ID="master0023" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="437a8663a0bf1598b005d2f0f4abc94e1b1b9d5a093d957dc97c8c28fbc9c1d86a1ae52addf5ced72fbb79642b0abbdf2d596198eae32b6a153b137be926e8d8">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0023.tif"/>
+      </mets:file>
+      <mets:file ID="master0024" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="fbee6005e1e2acebdca44ca6ed0fe2edd2888cd20e6dab4d92eda84c5d9012b633b6aace1d2cc4e672759c26cf34e8e6e941081e8d65e73ee7af6fab6e062f52">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0024.tif"/>
+      </mets:file>
+      <mets:file ID="master0025" MIMETYPE="image/tiff" CHECKSUMTYPE="SHA-512" CHECKSUM="3f38591086965f4e38821fe769fbbbb3bf9a4e418abcf411cf078865b3196120064aaf84854bf1b79bbe81c936fa4b7242dc281e3f888df05954a04aa4376dcd">
+        <mets:FLocat LOCTYPE="URL" xlink:href="master/0025.tif"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="web">
+      <mets:file ID="web0001" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="9558785026975fdab809c7f09d728e8b315b9ab6cf5bbf72384b44135cdc1cbbddab3aa9d43c2ae4a3152913c4c821516cd25fc06348f608f47024cba8208524">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0001.jpg"/>
+      </mets:file>
+      <mets:file ID="web0002" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="6e9e6896f77258dd2a62f031d5d6c5ff8c73b02f546e7a5eed31fce6e395028759974c7f89c1713b380bc5319e53693e5c96f735f234f6c772e245c2cd847b91">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0002.jpg"/>
+      </mets:file>
+      <mets:file ID="web0003" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="a207426a35a9165ef20d19e4137c3843b6242b478e3efe7caafba4b329d004d5b655bc36d7185cca08d3f57e4d925f001ed408fdfc6979f4dbf94c2828610546">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0003.jpg"/>
+      </mets:file>
+      <mets:file ID="web0004" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="dca5588ae45ce9096529499b9af54dc707de2e611219cb9d005830ecfdbf808e1be04add5fc7aa7e349f6ea942c78d912fbdb63eaf46dd403b67998b41c4c7e6">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0004.jpg"/>
+      </mets:file>
+      <mets:file ID="web0005" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="4d15c1966a3ab4047b7fb9b0488f5d8df3c06cccd07fadb90c6525dd755903e58b321c1cd6d78bd30a6ff863461f51029fc1de4ed587eb10e0176ccf71d10c0b">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0005.jpg"/>
+      </mets:file>
+      <mets:file ID="web0006" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="ef33b40ad0c8b9419d61813ccc3b1d4a19e6c8ff431d9cf3c5f60a18b15296f4f12e9189b9fffd7be2ef82130f5d7c7f37054abd025eb775188613d70989aa9d">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0006.jpg"/>
+      </mets:file>
+      <mets:file ID="web0007" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="718a48d52f4d3b77d8ccdfaf009cf97f62bc7a69c0f1fb28585315e5f5332815594fbf1c3ed0165fd8b438b78f45067cca786ce98a5ff896ddc47753fe16915d">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0007.jpg"/>
+      </mets:file>
+      <mets:file ID="web0008" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="a33c1783b2a725cde1c2925c785ff0289235e5732f6eab264b1bc762533add6191c9b9b801407b0600c5879a31bb72f6d5938649ab1d440c1d6d7815f62b0a7e">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0008.jpg"/>
+      </mets:file>
+      <mets:file ID="web0009" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="5cd1b599d7ce3cb9e4104637bae9d8e7da108d8cf4ea279c03daea3d708458900cc815003128e1650674bc46ef6e18fcd07c203e816354c331ffa0dc9e3d022d">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0009.jpg"/>
+      </mets:file>
+      <mets:file ID="web0010" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="1e8c29c0e9fa6bea78ce4e87af1c99dcb16b66a003dfa957a6a370ce7b53319045b21a736f5759594143d3e1a16ff0bb1331a0e8b85ba5a65bcb14ee451b64e9">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0010.jpg"/>
+      </mets:file>
+      <mets:file ID="web0011" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="cb99db3ed7bbedf150fc1463b55ac634b4d7c9c807d99cc9e44dfbf79770f013709b2a42f504646fa3fab25cf92b2374d14a044d34c25809a218a538795cc17b">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0011.jpg"/>
+      </mets:file>
+      <mets:file ID="web0012" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="379ec77770693d57bbe4b53358f04f6ca7cdec387b72c853ec27f4744fb125770ccebaefaa25e225ba49e92da2db8a3ee67febb57b3ec51144a902be42fb8477">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0012.jpg"/>
+      </mets:file>
+      <mets:file ID="web0013" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="2eedf302cf7dd35a5be2c0c64b0a426c7851514b3351bdf82d69bc9e9a9136afa175c152def6607d2ee7c693a829bb6d0660ccf873c3d32ea400ac4c9af3c4f1">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0013.jpg"/>
+      </mets:file>
+      <mets:file ID="web0014" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="ea7210f89de4d5e98b7733025a1056432f284cdc67a679cec98997204785265d2b9ac923516dc18e007a757fc757ae054814f100015c0c94fd369da066b9edde">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0014.jpg"/>
+      </mets:file>
+      <mets:file ID="web0015" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="d462e1494af3d2b1165674b34edb664450752b3cd2836f4200c6054e136f91743e6422ecbc972f3b7d1da876003190ddb68eab4c102c51d7ae36d30e5a579e68">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0015.jpg"/>
+      </mets:file>
+      <mets:file ID="web0016" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="eb6afd25a48b468d9102267bcf8d041d3293588ba4422de1c5e818b3adbdd92d1c46137d01f11bc1659a8f990ccd21af0aa94a1f7d166d4e6bde062df5cc39ac">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0016.jpg"/>
+      </mets:file>
+      <mets:file ID="web0017" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="72209f948a559457b816d6f982f67bb9e922a5293d312261f02f7adf77a522fd685cc7a481ea7576037c3f32126934bfa9b945d8f4a49ce9a647f257d777c0cc">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0017.jpg"/>
+      </mets:file>
+      <mets:file ID="web0018" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="6231c72b0806b00adcfadd930a3b6d154c85cbb90d8fd1d02de310b8c82faf8daa86f8b38b0c1ac32d1e5a5664c5df4a6b28fcc9895d928e3224104cdc6f1a0b">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0018.jpg"/>
+      </mets:file>
+      <mets:file ID="web0019" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="62a547c1ae150c96a707e406b57228745025e14ecb24d66b3a09edabf048d85176b27f48a7d7c2a7d8f16b25d403e51503a25dfb7025f7e463beac4980991a5b">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0019.jpg"/>
+      </mets:file>
+      <mets:file ID="web0020" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="77872e213b6ae1e34a22ff4171a1ad2efcb5b64293d72ebf2399ee01a0311e915cbd28c4236685b201035b4f994b68dd9ebe5518d284d5e83ac78885c9690823">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0020.jpg"/>
+      </mets:file>
+      <mets:file ID="web0021" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="4622db792663fce7e2b8c49474db41494c5913018190cac663b9441573c9d33f8600f180ae9b6dfdda44b28634f268fd91edd9a2669e8978a0279c7a4f88705e">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0021.jpg"/>
+      </mets:file>
+      <mets:file ID="web0022" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="ab80255aa3a11a6b2f100275867d165fd83e21f35e89374d2e476a2db002eec037423e394961eba1cee0249d0e1ac2e39ba20b70de1b6794f95e399880dae031">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0022.jpg"/>
+      </mets:file>
+      <mets:file ID="web0023" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="f7494dd205ce6815759dff4b27994ca0ca0f735b22c11badbd55a9eb9006b29b86155914164b708674134f010f3bd24e54f1905ef868abdb7bea03da2a4ca832">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0023.jpg"/>
+      </mets:file>
+      <mets:file ID="web0024" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="074c1a6195a42afb58a3e82befa152c43e7da04fcf5b51f2457a5f52403af90ab9f121f56d3876a293212bb95e7263073c1209654986f6a57caa009b8bbdd2ea">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0024.jpg"/>
+      </mets:file>
+      <mets:file ID="web0025" MIMETYPE="image/jpeg" CHECKSUMTYPE="SHA-512" CHECKSUM="404c67950bfbf51f4cac57cc222d29b0858722a3ca2ce9b2fe68ccb05ef76621707e2c07e7a9a16bd9d7d39334db78947243bfe2e50060eaa1f43062388ac692">
+        <mets:FLocat LOCTYPE="URL" xlink:href="web/0025.jpg"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="alto">
+      <mets:file ID="alto0001" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="74343bf86ef8b79768b15718d9c94eec70e05d4d900abdda33d73ab6249fd506741f58b1a4504958552196132d524fec2838172bc6e31f3afbddac75b1fcdbdc">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0001.xml"/>
+      </mets:file>
+      <mets:file ID="alto0002" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0002.xml"/>
+      </mets:file>
+      <mets:file ID="alto0003" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0003.xml"/>
+      </mets:file>
+      <mets:file ID="alto0004" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0004.xml"/>
+      </mets:file>
+      <mets:file ID="alto0005" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0005.xml"/>
+      </mets:file>
+      <mets:file ID="alto0006" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0006.xml"/>
+      </mets:file>
+      <mets:file ID="alto0007" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0007.xml"/>
+      </mets:file>
+      <mets:file ID="alto0008" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0008.xml"/>
+      </mets:file>
+      <mets:file ID="alto0009" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0009.xml"/>
+      </mets:file>
+      <mets:file ID="alto0010" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0010.xml"/>
+      </mets:file>
+      <mets:file ID="alto0011" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0011.xml"/>
+      </mets:file>
+      <mets:file ID="alto0012" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0012.xml"/>
+      </mets:file>
+      <mets:file ID="alto0013" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0013.xml"/>
+      </mets:file>
+      <mets:file ID="alto0014" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0014.xml"/>
+      </mets:file>
+      <mets:file ID="alto0015" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0015.xml"/>
+      </mets:file>
+      <mets:file ID="alto0016" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0016.xml"/>
+      </mets:file>
+      <mets:file ID="alto0017" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0017.xml"/>
+      </mets:file>
+      <mets:file ID="alto0018" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0018.xml"/>
+      </mets:file>
+      <mets:file ID="alto0019" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0019.xml"/>
+      </mets:file>
+      <mets:file ID="alto0020" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0020.xml"/>
+      </mets:file>
+      <mets:file ID="alto0021" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0021.xml"/>
+      </mets:file>
+      <mets:file ID="alto0022" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="add00efec074a4c32b6fcf87e8f5dc0cf37aa779313f7a7b1481224b8ed794c808d6a23f17389f84fc03e3878acddb7d8fb3478f70a930d1198df4b93fa5ec18">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0022.xml"/>
+      </mets:file>
+      <mets:file ID="alto0023" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="31da577b3e5608ace96fff7a67100443126ea33846d408b1d2bfd06121596fe4c4fe9ff46bee4903eedf668664e709df2ffab0d6011b3c7dda93891a9a27ec5f">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0023.xml"/>
+      </mets:file>
+      <mets:file ID="alto0024" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="eb583b424746bb25871c2cf80d686eb9448cf2c9bb3e39edcd52828c5b19899bf70e4e8f64579e7b586a2ddb81cd2a20720f91422ab5fae715e2cc328a59e04e">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0024.xml"/>
+      </mets:file>
+      <mets:file ID="alto0025" MIMETYPE="text/xml" CHECKSUMTYPE="SHA-512" CHECKSUM="1541e00dddb8ac401274cd58e7dfb1438542b1ba60538ff42cd0d0823659306ea60118b8821242f24fb62fa8738ee671a251054fecfc4f34e2fbdcf952aad2ff">
+        <mets:FLocat LOCTYPE="URL" xlink:href="alto/0025.xml"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="pdf">
+      <mets:file ID="pdfGUB0104394" MIMETYPE="text/pdf" CHECKSUMTYPE="SHA-512" CHECKSUM="f2eb1cfd9f5a0e4d13d96f60a9e33877a495bb47ca62362b03b55e691d8066bda7dfbe2ec917e0231d7f4bfb52219b1dc2328f40a60a468f89878f39b4a10494">
+        <mets:FLocat LOCTYPE="URL" xlink:href="pdf/GUB0104394.pdf"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="Physical">
+    <mets:div TYPE="Monograph">
+      <mets:div TYPE="BookCover" ID="physical_divpage1" ORDER="1">
+        <mets:fptr FILEID="master0001"/>
+        <mets:fptr FILEID="web0001"/>
+        <mets:fptr FILEID="alto0001"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage2" ORDER="2">
+        <mets:fptr FILEID="master0002"/>
+        <mets:fptr FILEID="web0002"/>
+        <mets:fptr FILEID="alto0002"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage3" ORDER="3">
+        <mets:fptr FILEID="master0003"/>
+        <mets:fptr FILEID="web0003"/>
+        <mets:fptr FILEID="alto0003"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage4" ORDER="4">
+        <mets:fptr FILEID="master0004"/>
+        <mets:fptr FILEID="web0004"/>
+        <mets:fptr FILEID="alto0004"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage5" ORDER="5">
+        <mets:fptr FILEID="master0005"/>
+        <mets:fptr FILEID="web0005"/>
+        <mets:fptr FILEID="alto0005"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage6" ORDER="6">
+        <mets:fptr FILEID="master0006"/>
+        <mets:fptr FILEID="web0006"/>
+        <mets:fptr FILEID="alto0006"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage7" ORDER="7">
+        <mets:fptr FILEID="master0007"/>
+        <mets:fptr FILEID="web0007"/>
+        <mets:fptr FILEID="alto0007"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage8" ORDER="8">
+        <mets:fptr FILEID="master0008"/>
+        <mets:fptr FILEID="web0008"/>
+        <mets:fptr FILEID="alto0008"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage9" ORDER="9">
+        <mets:fptr FILEID="master0009"/>
+        <mets:fptr FILEID="web0009"/>
+        <mets:fptr FILEID="alto0009"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage10" ORDER="10">
+        <mets:fptr FILEID="master0010"/>
+        <mets:fptr FILEID="web0010"/>
+        <mets:fptr FILEID="alto0010"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage11" ORDER="11">
+        <mets:fptr FILEID="master0011"/>
+        <mets:fptr FILEID="web0011"/>
+        <mets:fptr FILEID="alto0011"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage12" ORDER="12">
+        <mets:fptr FILEID="master0012"/>
+        <mets:fptr FILEID="web0012"/>
+        <mets:fptr FILEID="alto0012"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage13" ORDER="13">
+        <mets:fptr FILEID="master0013"/>
+        <mets:fptr FILEID="web0013"/>
+        <mets:fptr FILEID="alto0013"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage14" ORDER="14">
+        <mets:fptr FILEID="master0014"/>
+        <mets:fptr FILEID="web0014"/>
+        <mets:fptr FILEID="alto0014"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage15" ORDER="15">
+        <mets:fptr FILEID="master0015"/>
+        <mets:fptr FILEID="web0015"/>
+        <mets:fptr FILEID="alto0015"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage16" ORDER="16">
+        <mets:fptr FILEID="master0016"/>
+        <mets:fptr FILEID="web0016"/>
+        <mets:fptr FILEID="alto0016"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage17" ORDER="17">
+        <mets:fptr FILEID="master0017"/>
+        <mets:fptr FILEID="web0017"/>
+        <mets:fptr FILEID="alto0017"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage18" ORDER="18">
+        <mets:fptr FILEID="master0018"/>
+        <mets:fptr FILEID="web0018"/>
+        <mets:fptr FILEID="alto0018"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage19" ORDER="19">
+        <mets:fptr FILEID="master0019"/>
+        <mets:fptr FILEID="web0019"/>
+        <mets:fptr FILEID="alto0019"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage20" ORDER="20">
+        <mets:fptr FILEID="master0020"/>
+        <mets:fptr FILEID="web0020"/>
+        <mets:fptr FILEID="alto0020"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage21" ORDER="21">
+        <mets:fptr FILEID="master0021"/>
+        <mets:fptr FILEID="web0021"/>
+        <mets:fptr FILEID="alto0021"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage22" ORDER="22">
+        <mets:fptr FILEID="master0022"/>
+        <mets:fptr FILEID="web0022"/>
+        <mets:fptr FILEID="alto0022"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage23" ORDER="23">
+        <mets:fptr FILEID="master0023"/>
+        <mets:fptr FILEID="web0023"/>
+        <mets:fptr FILEID="alto0023"/>
+      </mets:div>
+      <mets:div TYPE="DoublePage" ID="physical_divpage24" ORDER="24">
+        <mets:fptr FILEID="master0024"/>
+        <mets:fptr FILEID="web0024"/>
+        <mets:fptr FILEID="alto0024"/>
+      </mets:div>
+      <mets:div TYPE="BookCover" ID="physical_divpage25" ORDER="25">
+        <mets:fptr FILEID="master0025"/>
+        <mets:fptr FILEID="web0025"/>
+        <mets:fptr FILEID="alto0025"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="Logical">
+    <mets:div TYPE="Monograph">
+      <mets:div TYPE="Undefined" ID="logical_divpage1" ORDER="1" DMDID="image_1245">
+        <mets:fptr FILEID="master0001"/>
+        <mets:fptr FILEID="web0001"/>
+        <mets:fptr FILEID="alto0001"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage2" ORDER="2" DMDID="image_1245">
+        <mets:fptr FILEID="master0002"/>
+        <mets:fptr FILEID="web0002"/>
+        <mets:fptr FILEID="alto0002"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage3" ORDER="3" DMDID="image_1245">
+        <mets:fptr FILEID="master0003"/>
+        <mets:fptr FILEID="web0003"/>
+        <mets:fptr FILEID="alto0003"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage4" ORDER="4" DMDID="image_1245">
+        <mets:fptr FILEID="master0004"/>
+        <mets:fptr FILEID="web0004"/>
+        <mets:fptr FILEID="alto0004"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage5" ORDER="5" DMDID="image_1245">
+        <mets:fptr FILEID="master0005"/>
+        <mets:fptr FILEID="web0005"/>
+        <mets:fptr FILEID="alto0005"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage6" ORDER="6" DMDID="image_1245">
+        <mets:fptr FILEID="master0006"/>
+        <mets:fptr FILEID="web0006"/>
+        <mets:fptr FILEID="alto0006"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage7" ORDER="7" DMDID="image_1245">
+        <mets:fptr FILEID="master0007"/>
+        <mets:fptr FILEID="web0007"/>
+        <mets:fptr FILEID="alto0007"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage8" ORDER="8" DMDID="image_1245">
+        <mets:fptr FILEID="master0008"/>
+        <mets:fptr FILEID="web0008"/>
+        <mets:fptr FILEID="alto0008"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage9" ORDER="9" DMDID="image_1245">
+        <mets:fptr FILEID="master0009"/>
+        <mets:fptr FILEID="web0009"/>
+        <mets:fptr FILEID="alto0009"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage10" ORDER="10" DMDID="image_1245">
+        <mets:fptr FILEID="master0010"/>
+        <mets:fptr FILEID="web0010"/>
+        <mets:fptr FILEID="alto0010"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage11" ORDER="11" DMDID="image_1245">
+        <mets:fptr FILEID="master0011"/>
+        <mets:fptr FILEID="web0011"/>
+        <mets:fptr FILEID="alto0011"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage12" ORDER="12" DMDID="image_1245">
+        <mets:fptr FILEID="master0012"/>
+        <mets:fptr FILEID="web0012"/>
+        <mets:fptr FILEID="alto0012"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage13" ORDER="13" DMDID="image_1245">
+        <mets:fptr FILEID="master0013"/>
+        <mets:fptr FILEID="web0013"/>
+        <mets:fptr FILEID="alto0013"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage14" ORDER="14" DMDID="image_1245">
+        <mets:fptr FILEID="master0014"/>
+        <mets:fptr FILEID="web0014"/>
+        <mets:fptr FILEID="alto0014"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage15" ORDER="15" DMDID="image_1245">
+        <mets:fptr FILEID="master0015"/>
+        <mets:fptr FILEID="web0015"/>
+        <mets:fptr FILEID="alto0015"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage16" ORDER="16" DMDID="image_1245">
+        <mets:fptr FILEID="master0016"/>
+        <mets:fptr FILEID="web0016"/>
+        <mets:fptr FILEID="alto0016"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage17" ORDER="17" DMDID="image_1245">
+        <mets:fptr FILEID="master0017"/>
+        <mets:fptr FILEID="web0017"/>
+        <mets:fptr FILEID="alto0017"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage18" ORDER="18" DMDID="image_1245">
+        <mets:fptr FILEID="master0018"/>
+        <mets:fptr FILEID="web0018"/>
+        <mets:fptr FILEID="alto0018"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage19" ORDER="19" DMDID="image_1245">
+        <mets:fptr FILEID="master0019"/>
+        <mets:fptr FILEID="web0019"/>
+        <mets:fptr FILEID="alto0019"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage20" ORDER="20" DMDID="image_1245">
+        <mets:fptr FILEID="master0020"/>
+        <mets:fptr FILEID="web0020"/>
+        <mets:fptr FILEID="alto0020"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage21" ORDER="21" DMDID="image_1245">
+        <mets:fptr FILEID="master0021"/>
+        <mets:fptr FILEID="web0021"/>
+        <mets:fptr FILEID="alto0021"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage22" ORDER="22" DMDID="image_1245">
+        <mets:fptr FILEID="master0022"/>
+        <mets:fptr FILEID="web0022"/>
+        <mets:fptr FILEID="alto0022"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage23" ORDER="23" DMDID="image_1245">
+        <mets:fptr FILEID="master0023"/>
+        <mets:fptr FILEID="web0023"/>
+        <mets:fptr FILEID="alto0023"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage24" ORDER="24" DMDID="image_1245">
+        <mets:fptr FILEID="master0024"/>
+        <mets:fptr FILEID="web0024"/>
+        <mets:fptr FILEID="alto0024"/>
+      </mets:div>
+      <mets:div TYPE="Undefined" ID="logical_divpage25" ORDER="25" DMDID="image_1245">
+        <mets:fptr FILEID="master0025"/>
+        <mets:fptr FILEID="web0025"/>
+        <mets:fptr FILEID="alto0025"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>

@@ -17,10 +17,10 @@ module.exports = {
 
 	parse: function(metsID) {
 		var parser = new xml2js.Parser();
-		console.log(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml');
-		fs.readFile(config.gub_path+'/'+metsID+'/'+metsID+'_mets.xml', function(err, fileData) {
+		console.log(config.gub_path+'\\'+metsID+'\\'+metsID+'_mets.xml');
+		fs.readFile(config.gub_path+'\\'+metsID+'\\'+metsID+'_mets.xml', function(err, fileData) {
+
 			parser.parseString(fileData, function (err, result) {
-				console.log(result);
 				var getEntryMetadata = function(id) {
 					var resultObj;
 					_.each(result['mets:mets']['mets:dmdSec'], function(item) {
