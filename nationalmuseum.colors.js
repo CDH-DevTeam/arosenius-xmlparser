@@ -10,8 +10,8 @@ var data = JSON.parse(fileData);
 
 _.each(data.files, function(file) {
 	var imageData = fs.readFileSync('output/nationalmuseum/images/png/'+file.obj_id+'.png');
-
-	var image = new Canvas.Image;
+	console.log('readFileSync: output/nationalmuseum/images/png/'+file.obj_id+'.png');
+	var image = new Canvas.Image;	
 	image.src = imageData;
 
 	var canvas = new Canvas(image.width, image.height);
