@@ -1,7 +1,61 @@
 var _ = require('underscore');
 var chroma = require('chroma-js');
+var Canvas = require('canvas');
+var colorThief = require('thief');
+var fs = require('fs');
 
 module.exports = {
+	extractColors: function(filePath) {
+		console.log(filePath);
+		if (fs.existsSync(filePath)) {
+			console.log('found!');
+			var imageData = fs.readFileSync(filePath);
+			var image = new Canvas.Image;
+			image.src = imageData;
+
+			var canvas = new Canvas(image.width, image.height);
+			var ctx = canvas.getContext('2d');
+
+			console.log('ctx.drawImage');
+
+			ctx.drawImage(image, 0, 0, image.width, image.height);
+
+			var imageColors3 = _.map(colorThief.createPalette(canvas, 3), _.bind(function(color) {
+					return this.colorObject(color);
+			}, this));
+			var imageColors5 = _.map(colorThief.createPalette(canvas, 5), _.bind(function(color) {
+					return this.colorObject(color);
+			}, this));
+			var imageColors8 = _.map(colorThief.createPalette(canvas, 8), _.bind(function(color) {
+					return this.colorObject(color);
+			}, this));
+			var dominantColor = this.colorObject(colorThief.getDominantColor(canvas));
+
+			var colorData = {
+				dominant: dominantColor,
+				colors: {
+					three: imageColors3,
+					five: imageColors5,
+					five_mapped: _.map(imageColors5, _.bind(function(color) {
+						var mappedColor = this.mapColorToPalette(color.rgb);
+
+						return this.colorObject(mappedColor);
+					}, this)),
+					eight_mapped: _.map(imageColors8, _.bind(function(color) {
+						var mappedColor = this.mapColorToPalette(color.rgb);
+
+						return this.colorObject(mappedColor);
+					}, this)),
+				}
+			};
+
+			return colorData;
+		}
+		else {
+			return undefined;
+		}
+	},
+
 	colorObject: function(color) {
 		var hex = chroma(color).hex();
 		var hsv = chroma(color).hsv();

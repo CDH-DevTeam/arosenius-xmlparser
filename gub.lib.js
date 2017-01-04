@@ -17,8 +17,11 @@ module.exports = {
 
 	parse: function(metsID) {
 		var parser = new xml2js.Parser();
-		console.log(config.gub_path+'\\'+metsID+'\\'+metsID+'_mets.xml');
-		fs.readFile(config.gub_path+'\\'+metsID+'\\'+metsID+'_mets.xml', function(err, fileData) {
+
+		fs.readFile(config.gub_path+'\\'+metsID, function(err, fileData) {
+			if (err) {
+				console.log(err);
+			}
 
 			parser.parseString(fileData, function (err, result) {
 				var getEntryMetadata = function(id) {
@@ -41,7 +44,8 @@ module.exports = {
 						hd_id: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-id"],
 						hd_ref: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-ref"],	
 						physdesc: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].physdesc[0],
-						note: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note[0] : ''
+						note: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note[0] : '',
+						searchdate: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate[0] : ''
 					};
 				};
 
@@ -71,7 +75,7 @@ module.exports = {
 //					console.log(metadata.document);
 
 					var metadata = {
-						mets_ID: metsID,
+						mets_ID: metsID.replace('_mets.xml', ''),
 						
 						archive_id: metsData.archive[0].$['hd-id'],
 						archive_unit_title: metsData.archive[0].unittitle[0],
@@ -102,8 +106,15 @@ module.exports = {
 
 						letter_image_physdesc: metsData.letter ? metsData.letter[0].data[0].imagedata[0].physdesc[0] : '',
 						letter_image_unitdate: metsData.letter && metsData.letter[0] && metsData.letter[0].data && metsData.letter[0].data[0] && metsData.letter[0].data[0].imagedata && metsData.letter[0].data[0].imagedata[0] && metsData.letter[0].data[0].imagedata[0].unitdate ? metsData.letter[0].data[0].imagedata[0].unitdate[0] : '',
+
+
+						/* --- LAGA ---
+						Láta parserinn taka rétta dagsetningu, þ.e. láta hann taka rétt metsData.letter.data.imagedata byggt á ID, í GUB0102005 virðist parserinn
+						T.d. alltaf taka fyrsta metsData.letter.data.imagedata og þannig ranga dagsetningu */
 						letter_image_searchdate: metsData.letter ? metsData.letter[0].data[0].imagedata[0].searchdate[0] : '',
+						// ---
 					};
+					console.log()
 
 					return metadata;
 				};
@@ -139,11 +150,12 @@ module.exports = {
 
 					getImageDataItem(item.$.DMDID).images.push({
 						id: item['mets:fptr'][1].$.FILEID,
-						type: getPysicalStructmapEntry(item['mets:fptr'][1].$.FILEID).$.TYPE
+						type: getPysicalStructmapEntry(item['mets:fptr'][1].$.FILEID).$.TYPE,
+						order: item.$.ORDER
 					});
 				});
 
-				fs.writeFile('output/gub/'+metsID+'.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {
+				fs.writeFile('output/gub/'+(metsID.replace('.xml', ''))+'.json', JSON.stringify(fileMetadata, null, '\t'), function (err) {
 					console.log('output/gub/'+metsID+'.json');
 				});
 			});
