@@ -32,21 +32,18 @@ module.exports = {
 						}
 					});
 
-					// Færa metadata level niður, allavega tags
-/*
-					return {
-						physdesc: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].physdesc[0],
-						note: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note[0] : '',
-						source: formatImageData(resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata)
-					};
-*/
-					return {
-						hd_id: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-id"],
-						hd_ref: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-ref"],	
-						physdesc: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].physdesc[0],
-						note: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note[0] : '',
-						searchdate: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate[0] : ''
-					};
+					if (resultObj) {
+						return {
+							hd_id: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-id"],
+							hd_ref: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].$["hd-ref"],	
+							physdesc: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].physdesc[0],
+							note: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].note[0] : '',
+							searchdate: resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate ? resultObj['mets:mdWrap'][0]['mets:xmlData'][0].pagegroup[0].imagedata[0].searchdate[0] : ''
+						};
+					}
+					else {
+						return {};
+					}
 				};
 
 				var getPysicalStructmapEntry = function(id) {
@@ -140,6 +137,7 @@ module.exports = {
 
 				_.each(structMap.logical[0]['mets:div'], function(item) {
 					if (getImageDataItem(item.$.DMDID) == undefined) {
+						console.log(item.$.DMDID);
 						fileMetadata.files.push({
 							id: item.$.DMDID,
 							metadata: getEntryMetadata(item.$.DMDID),
